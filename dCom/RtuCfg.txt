@@ -1,0 +1,10 @@
+STA 1
+TCP 53893
+
+
+DO_REG  2 2400 0  0      1     0  DO  @PrekidacSemafora #
+DO_REG  2 2402 0  0      1     0  DO  @PrekidacUlicneRasvete #
+IN_REG  1 2200  0  0   4095  2000  AI  @SenzorDaljine #
+IN_REG  1 2201  0  0   4095  2000  AI  @SenzorSvetlosti #
+DI_REG  1 4200  0  0      1     0  DI  @KontaktniSenzor #
+DO_REG  1 2403 0  0      1     0  DO  @PrekidacZaRezim #
