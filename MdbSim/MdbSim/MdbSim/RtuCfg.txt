@@ -1,4 +1,4 @@
-STA 1
+STA 126
 TCP 53893
 
 DO_REG 2 2400 0 0 1 0 DO @Semafor 2
